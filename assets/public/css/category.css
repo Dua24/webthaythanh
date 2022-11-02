@@ -1,0 +1,19 @@
+/* category */
+.category-item-link{
+    color: #848282;
+    font-size: 1.6rem;
+}
+.category-item-link:hover{
+    color: var(--black-color);
+    text-decoration: none;
+
+}
+.category-list{
+    list-style: none;
+    padding-left: 0;
+}
+.category-item{
+    margin:0 0 12px 16px;
+    font-size: 1.6rem;
+    color: #0a0a0a;;
+}

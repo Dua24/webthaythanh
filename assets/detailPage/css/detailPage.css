@@ -1,0 +1,132 @@
+.contain-detail{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.detail__product-img{
+    width: 100%;
+}
+/* breakcrumbs */
+.breadcrumbs_list{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+.breadcrumbs_list a:hover{
+    text-decoration: none;
+    color: var(--black-color);
+    cursor: text
+}
+.breadcrumb__link{
+    color: #a5a5a5;
+    font-weight: 400;
+    cursor: pointer !important;
+}
+.divider{
+    color: #a5a5a5;
+    margin: 0 4px;
+    font-weight: 400;
+}
+
+
+
+/* Ship-calculator */
+.detail__product-ship-calculator{
+    padding: 20px 0;
+    border-bottom: 1px dotted #d6d6d6c7;
+}
+.ship-calculator__title{
+    font-size: 1.7rem;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 14px;;
+}
+.ship-calculator__p{
+    color: #777777;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 4px;
+
+}
+.ship-calculator__btn{
+    color: #334862;;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+
+}
+.ship-calculator__btn:hover{
+    color: #0a0a0a;
+    cursor: pointer;
+}
+/* product-meta */
+.detail__product-meta{
+    margin-bottom: 10px;
+}
+.sku-wrapper{
+    font-size: 1.3rem;
+    color: #777;
+    display: block;
+    border-bottom: 1px dotted #d6d6d6c7;
+    padding: 6px 0;
+}
+.posted-in{
+    font-size: 1.3rem;
+    color: #777;
+}
+.posted-in a{
+    color: #334862;
+    cursor: pointer;
+}
+.posted-in a:hover{
+    color: #0a0a0a;
+    text-decoration: none;
+}
+.row.line-border-left{
+    border-left: 1px solid #d6d6d673;
+}
+
+
+/* footer detail product */
+.product-footer_accordian{
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+}
+.product-footer_accordian-item{
+    font-size: 1.7rem;
+    border-top: 1px solid #ddd;
+    color: #777;
+    padding: 12px 40px 12px 10px;
+    margin-left: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.product-footer_accordian-item:hover .accordian-item-title{
+    color: #0a0a0a;
+    transition: color linear 0.2s;
+}
+.product-footer_accordian-item i{
+    margin-right: 10px;
+    font-size: 1.7rem;
+}
+.product-footer_accordian-item:last-child {
+    border-bottom: 1px solid #ddd;
+
+}
+.more-accordian__item{
+    margin: 15px 30px 60px 30px;
+}
+.form-cart__size-item{
+    transition: box-shadow linear 0.3s;
+}
+.form-cart__size-item.active{
+    box-shadow: 0 0 0 3px #00000033;
+}
+.form-cart__contain-add,
+.form-cart__size-list{
+    user-select: none;
+}
+
+.content-detail .control-detail__img-product{
+    display: block;
+}
